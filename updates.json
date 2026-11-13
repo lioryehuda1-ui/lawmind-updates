@@ -1,34 +1,7 @@
 {
   "kind": "lawmind-update-manifest",
   "schema": 1,
-  "releases": [
-    {
-      "version": "6.0.9",
-      "date": "2026-11-13",
-      "notes": "גרסת בדיקה של מנגנון העדכון.",
-      "packages": [
-        {
-          "kind": "patch",
-          "file": "lawmind-6.0.9-from-6.0.8.lmu",
-          "size": 4877539,
-          "sha256": "9246bb45dc3a8a1f81a97b9a7f0de062d6be3eb18d88f0bf7230717a3e3ba011",
-          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.9/lawmind-6.0.9-from-6.0.8.lmu",
-          "from": "6.0.8"
-        },
-        {
-          "kind": "full",
-          "file": "lawmind-6.0.9-full.lmu",
-          "size": 216615108,
-          "sha256": "7052d719e0af037c0a25a7fb914aab712a0e1db1137a3150f72c07aae07d090a",
-          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.9/lawmind-6.0.9-full.lmu"
-        }
-      ],
-      "channel": "test",
-      "test_hwids": [
-        "4cf02e1d5c1ba9efbffd36e5aca0dfa9e2d612045021aa84a90bb1afb7e58ea0"
-      ]
-    }
-  ],
-  "issued": "2026-11-13T09:31:26.940650+00:00",
-  "sig": "C1/f6bi5Ivz351irIFmrd2gEmKq01tcn/+gv5SpEqrZ4kyvLuuUoB0J2q3KGORplJ1N9gXE+pDKK9E3YuqsZBg=="
+  "releases": [],
+  "issued": "2026-11-13T09:34:03.548308+00:00",
+  "sig": "FpgpGZfPPlGSIu6ONyKIktoPDQkA89hxKlLXR4f3kdQffg1ZIkx4HzO5/SI37yVG2gC+NF4BW3e+1AVzdislBg=="
 }
