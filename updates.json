@@ -3,6 +3,44 @@
   "schema": 1,
   "releases": [
     {
+      "version": "6.0.10",
+      "date": "2026-11-18",
+      "notes": "משגר מצומצם ל-7 מודולים. \"תיקונים שאושרו\" עבר לתוך \"בחינת הערות רוכש\", וכל הערה מציגה את הנוסחים שנחתמו לסעיף בפרויקט. \"שאל את כל המאגרים\" מחפש גם בנוסח ההסכמים של המשרד. במצב רוכש אפשר להעלות הסכם ב-PDF. בהפקת חוזים: כל אחוז מהתמורה מחושב אוטומטית, לוח התשלומים נסגר מול התמורה בשקלים שלמים, והתראה על ת\"ז או טלפון לא תקינים לפני ההפקה.",
+      "packages": [
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.10-from-6.0.9.lmu",
+          "size": 38323293,
+          "sha256": "498516760539aa0b3722dfa8180717aa833e80ba5f5863306d4d54d6b6cc5037",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.10/lawmind-6.0.10-from-6.0.9.lmu",
+          "from": "6.0.9"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.10-from-6.0.8.lmu",
+          "size": 38323293,
+          "sha256": "1a68fc8b3926906dd641d87f71f7d5278cef611d6e7a36d319c25568ca63c074",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.10/lawmind-6.0.10-from-6.0.8.lmu",
+          "from": "6.0.8"
+        },
+        {
+          "kind": "full",
+          "file": "lawmind-6.0.10-full.lmu",
+          "size": 216794058,
+          "sha256": "503b2700d8f68f6c7346de8b6c761d670f12f9bb6df589f14e08025b52b97213",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.10/lawmind-6.0.10-full.lmu"
+        },
+        {
+          "kind": "full_user",
+          "file": "lawmind-6.0.10-full-user.lmu",
+          "size": 193221474,
+          "sha256": "4299ef209577e1983c99a17ef798b3c07a502031ca9a920666e3f8d0d92ba243",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.10/lawmind-6.0.10-full-user.lmu"
+        }
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "6.0.9",
       "date": "2026-11-13",
       "notes": "פרטי המפתח בחלון \"אודות\" מוצגים עכשיו באנגלית.",
@@ -29,6 +67,6 @@
       ]
     }
   ],
-  "issued": "2026-11-13T12:38:27.681706+00:00",
-  "sig": "fGmvzshKJW05StbmW8o6y8A8dmV4ZDo+FiLOdAONszYTAaOhf4Br3w/CbOeBgg43aUlosFn+pFHYi2z5uLRpCQ=="
+  "issued": "2026-11-18T12:37:38.471608+00:00",
+  "sig": "Eu+xDuHc8QEL5xRz+G0s0aYSP3CI8shxVLBH1CpQl4AOCCzlL6IA8rEbmo8saO/IONDecGOFVr6dwWe+LaJaDg=="
 }
