@@ -3,6 +3,52 @@
   "schema": 1,
   "releases": [
     {
+      "version": "6.0.12",
+      "date": "2026-11-24",
+      "notes": "בחינת הערות מפוצלת לשלושה מודולים: ייצוג רוכש, ייצוג קבלן ויד שנייה (חדש). במצב ב\"כ מוכר: מסך מענה עם התרעות, מחיקות שקטות, בקשות ליזם ותקדימים. בחירת נוסח לכל שורת נספח. כפתור 'נסח תשובה' בנהלי רישום ורמ\"י. כפתור 'העתק' בתוצאות נוסח המשרד. כרטיס 'ייצוא מסמכים ומיילים'. תיקונים: 'במילים' ביתרה עם אגורות, האות ו' כשאין רוכש שני, שמירה אוטומטית, בדיקת רישיון יציבה, זיהוי עדכון שנכשל.",
+      "packages": [
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.12-from-6.0.10.lmu",
+          "size": 39620408,
+          "sha256": "eedcc6d21998b7748293533b07a2d534a0a82347e6aca65646b0ba61b67d56e0",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.12/lawmind-6.0.12-from-6.0.10.lmu",
+          "from": "6.0.10"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.12-from-6.0.9.lmu",
+          "size": 40152487,
+          "sha256": "928e2ede791d79fc3784ae70d65e307e824bb0cb637aa885fb3616af54dc7c9d",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.12/lawmind-6.0.12-from-6.0.9.lmu",
+          "from": "6.0.9"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.12-from-6.0.8.lmu",
+          "size": 40152487,
+          "sha256": "ff55a4a0a21333c6e0fde9cc041c999753bce4f5085bbe9a6fa238543d5425b6",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.12/lawmind-6.0.12-from-6.0.8.lmu",
+          "from": "6.0.8"
+        },
+        {
+          "kind": "full",
+          "file": "lawmind-6.0.12-full.lmu",
+          "size": 218623891,
+          "sha256": "7949b5af9964d5804aa1138a97c9d9b3b233bfdfce832bdfda49c97e7fbf1850",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.12/lawmind-6.0.12-full.lmu"
+        },
+        {
+          "kind": "full_user",
+          "file": "lawmind-6.0.12-full-user.lmu",
+          "size": 195057595,
+          "sha256": "c38b9a3393bec0c9395457ca3cae3add5940de100b19329ef013abdd32a117a7",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.12/lawmind-6.0.12-full-user.lmu"
+        }
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "6.0.10",
       "date": "2026-11-18",
       "notes": "משגר מצומצם ל-7 מודולים. \"תיקונים שאושרו\" עבר לתוך \"בחינת הערות רוכש\", וכל הערה מציגה את הנוסחים שנחתמו לסעיף בפרויקט. \"שאל את כל המאגרים\" מחפש גם בנוסח ההסכמים של המשרד. במצב רוכש אפשר להעלות הסכם ב-PDF. בהפקת חוזים: כל אחוז מהתמורה מחושב אוטומטית, לוח התשלומים נסגר מול התמורה בשקלים שלמים, והתראה על ת\"ז או טלפון לא תקינים לפני ההפקה.",
@@ -67,6 +113,6 @@
       ]
     }
   ],
-  "issued": "2026-11-18T12:37:38.471608+00:00",
-  "sig": "Eu+xDuHc8QEL5xRz+G0s0aYSP3CI8shxVLBH1CpQl4AOCCzlL6IA8rEbmo8saO/IONDecGOFVr6dwWe+LaJaDg=="
+  "issued": "2026-11-23T23:45:38.792110+00:00",
+  "sig": "6nKLf95//VM5Jp3LLw/QKpLm/c7jPFvdv87iM3iYxLfA1ZvQnXP+b/9wMIU+D8r+Em8C+2u2LFEqKa/6vVf/Cg=="
 }
