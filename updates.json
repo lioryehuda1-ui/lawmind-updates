@@ -3,6 +3,52 @@
   "schema": 1,
   "releases": [
     {
+      "version": "6.0.14",
+      "date": "2026-11-25",
+      "notes": "עריכת תבניות בפרויקט: הסרה והחלפה של תבנית מקושרת אחת, וקישור תיקייה מוסיף במקום להחליף. כפתור 'דווח על תקלה' בהגדרות. כמות חניה/מחסן מתמלאת לפי המספרים. בהפקה מקליטת מייל הרשמה — הקבצים המצורפים נשמרים בתיקיית הרוכש.",
+      "packages": [
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.14-from-6.0.13.lmu",
+          "size": 38063037,
+          "sha256": "66289bf2cc461d0362f1d1fc640ddcff88375f19080a5ac7fd5da26d17df079f",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.14/lawmind-6.0.14-from-6.0.13.lmu",
+          "from": "6.0.13"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.14-from-6.0.12.lmu",
+          "size": 38410025,
+          "sha256": "9fb8191bdc60eaeafe6c39eec57881a562b4d86eadb15c60e0d0223933338c51",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.14/lawmind-6.0.14-from-6.0.12.lmu",
+          "from": "6.0.12"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.14-from-6.0.10.lmu",
+          "size": 39838338,
+          "sha256": "1561b9f1f81c072f4073fb5f1e72556e4d09dea13ed1be5928d385fc68fb3cae",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.14/lawmind-6.0.14-from-6.0.10.lmu",
+          "from": "6.0.10"
+        },
+        {
+          "kind": "full",
+          "file": "lawmind-6.0.14-full.lmu",
+          "size": 218748964,
+          "sha256": "acf46ad32b2b9f20951ce91cec45be470be3e4f57ff741e491fb7968a4efba03",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.14/lawmind-6.0.14-full.lmu"
+        },
+        {
+          "kind": "full_user",
+          "file": "lawmind-6.0.14-full-user.lmu",
+          "size": 195168771,
+          "sha256": "481c4003e3cda96906f869a52b09f2e8473cbce5df4fd5f31c313c0b33c0be66",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.14/lawmind-6.0.14-full-user.lmu"
+        }
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "6.0.13",
       "date": "2026-11-24",
       "notes": "פעמון התראות ליד ההגדרות במסך הראשי: נקודה אדומה כשיש עדכון חדש, ופירוט מה חדש. העברת מאגרי ההערות בלבד (ייצוג קבלן, ייצוג רוכש, יד שנייה) למחשב אחר, במיזוג בלי לדרוס נתונים קיימים; הגיבוי המלא כולל עכשיו גם את מאגרי ייצוג רוכש ויד שנייה. נספח שינויים קצר וממוקד: בחלק הראשי רק צ'קליסט והצעות שאושרו, והצעה אחת לכל סעיף או נושא בשאר החלקים; כל ההצעות עדיין מוצגות במסך.",
@@ -159,6 +205,6 @@
       ]
     }
   ],
-  "issued": "2026-11-24T11:17:12.367328+00:00",
-  "sig": "hdRodyaObynkoSkwcAOl6YsqhRTXzuI77WMiraqcURt/m9BGu1e0M4kQ+YMNFM6SQTuW+yFNnDrEYTGbw6BWBg=="
+  "issued": "2026-11-25T10:13:25.957369+00:00",
+  "sig": "DvgkmkBNv4G4mMuax9aLTLI+HFvKeKuEe4sa7LbASEVs8iJVxHYDz8uAHxgwIzv7ny9SPqbbSf6PtEvElAUoAA=="
 }
