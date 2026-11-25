@@ -3,6 +3,52 @@
   "schema": 1,
   "releases": [
     {
+      "version": "6.0.15",
+      "date": "2026-11-25",
+      "notes": "נספח ייצוג רוכש בפורמט המשרד: כותרת, צדדים, טבלה אחת וחתימות; הערות בסוגריים מסולסלים, בלי חלקים א'–ד'. יד שנייה: ההסכם עצמו עם שינויים במעקב והסברים בהערות שוליים, במקום נספח. תוקנה שגיאה ב'הכן מענה' על קובץ שכבר נערך ב-Word. הערות פנימיות (הודעות בין עמיתים) לא נקלטות יותר למאגרי ההערות.",
+      "packages": [
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.15-from-6.0.14.lmu",
+          "size": 25116680,
+          "sha256": "41b2e1906b0ea915b5c5101e8c068c19a127f303d9f07742e067b554b075685e",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.15/lawmind-6.0.15-from-6.0.14.lmu",
+          "from": "6.0.14"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.15-from-6.0.13.lmu",
+          "size": 38624011,
+          "sha256": "d92337e75f76b1f7c90d3b45e062c9704e86ffafe3850d57fc2e4d5f351dc7a2",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.15/lawmind-6.0.15-from-6.0.13.lmu",
+          "from": "6.0.13"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.15-from-6.0.12.lmu",
+          "size": 38804786,
+          "sha256": "d5d1ee5f55c5a947d96efbf875aadc64c15d57391b7fb8bf6743f0a41a9c4667",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.15/lawmind-6.0.15-from-6.0.12.lmu",
+          "from": "6.0.12"
+        },
+        {
+          "kind": "full",
+          "file": "lawmind-6.0.15-full.lmu",
+          "size": 218866165,
+          "sha256": "d44c33de83bef5fc9ff9fc2709611267f779e5d09c6543ed2a9d86d5132118eb",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.15/lawmind-6.0.15-full.lmu"
+        },
+        {
+          "kind": "full_user",
+          "file": "lawmind-6.0.15-full-user.lmu",
+          "size": 194578602,
+          "sha256": "f827f965cbdf617f309bdc27ea436d53963788eb22eac734f74db7fcc5e3bde7",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.15/lawmind-6.0.15-full-user.lmu"
+        }
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "6.0.14",
       "date": "2026-11-25",
       "notes": "עריכת תבניות בפרויקט: הסרה והחלפה של תבנית מקושרת אחת, וקישור תיקייה מוסיף במקום להחליף. כפתור 'דווח על תקלה' בהגדרות. כמות חניה/מחסן מתמלאת לפי המספרים. בהפקה מקליטת מייל הרשמה — הקבצים המצורפים נשמרים בתיקיית הרוכש.",
@@ -205,6 +251,6 @@
       ]
     }
   ],
-  "issued": "2026-11-25T10:13:25.957369+00:00",
-  "sig": "DvgkmkBNv4G4mMuax9aLTLI+HFvKeKuEe4sa7LbASEVs8iJVxHYDz8uAHxgwIzv7ny9SPqbbSf6PtEvElAUoAA=="
+  "issued": "2026-11-25T15:40:06.467591+00:00",
+  "sig": "erLKk8/672EVLHLnHTO4s7c7intgJrt6c19qH+K0SCXcXHFR6hNUU5FR3gL/4D6/Dakpq7Pe7ZXfE2n5xw6XCQ=="
 }
