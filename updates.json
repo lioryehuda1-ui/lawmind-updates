@@ -3,6 +3,52 @@
   "schema": 1,
   "releases": [
     {
+      "version": "6.0.17",
+      "date": "2026-11-26",
+      "notes": "עיצוב חדש לתוכנה: סרגל ניווט קבוע מימין ומסך בית במקום רשת הכרטיסים; לשוניות לעבודות פתוחות ומעבר ביניהן בלי לאבד נתונים; חיפוש ופקודות מהירות ב-Ctrl+K; לשוניות במודול יצירת חוזים; חלונית חיפוש במאגרים בצד המסך; פלטת צבעים חדשה. חלון 'משוב ותקלות' בהגדרות פעיל: פותח מייל ב-Outlook לכתובת התמיכה lawmind.support@gmail.com.",
+      "packages": [
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.17-from-6.0.16.lmu",
+          "size": 18297562,
+          "sha256": "8632cb899a67eb4235cf107dcba5f0890321a289baa2654eb99d3d0e46596366",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.17/lawmind-6.0.17-from-6.0.16.lmu",
+          "from": "6.0.16"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.17-from-6.0.15.lmu",
+          "size": 41510336,
+          "sha256": "cee7979b37ab89e46d82c0e1ad74a272d00547890733f1fbdceb744407f3d24b",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.17/lawmind-6.0.17-from-6.0.15.lmu",
+          "from": "6.0.15"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.17-from-6.0.14.lmu",
+          "size": 41707339,
+          "sha256": "289f3228dc368dfb967524bc2d4dc7548cd9f5858b8c7b86058b0dccc0dd94c6",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.17/lawmind-6.0.17-from-6.0.14.lmu",
+          "from": "6.0.14"
+        },
+        {
+          "kind": "full",
+          "file": "lawmind-6.0.17-full.lmu",
+          "size": 221768980,
+          "sha256": "96b07879e7c4b5b384d8270f9bcbd05b190686a56cb57d66ac43c4cbc3cdc488",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.17/lawmind-6.0.17-full.lmu"
+        },
+        {
+          "kind": "full_user",
+          "file": "lawmind-6.0.17-full-user.lmu",
+          "size": 197457935,
+          "sha256": "a281d0f1838ed1d0d5b75e124329ca320344e26e1e667ba8395c7c3480d7f139",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.17/lawmind-6.0.17-full-user.lmu"
+        }
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "6.0.16",
       "date": "2026-11-26",
       "notes": "מענה ב\"כ קבלן בפורמט המשרד: אם הגיבו בנספח משלהם, הבקשות מועתקות לנספח שלנו לפי סדר הסעיפים; המענה בעקוב אחר שינויים והנימוק בהערות שוליים. חדש: חיבור Claude אישי בהגדרות (מפתח API של המשתמש, נשמר מוצפן רק במחשב) וכפתור 'למד מקובץ' להוספת נספחים למאגר. Ollama הוסר: הוא תפס כ-17GB והתשובות שלו בעברית היו חלשות; במקומו אפשר לחבר מפתח Claude, והתוכנה עובדת גם בלי מפתח. מעבר בין מודולים לא מוחק נתונים, עבודה שרצה ממשיכה ברקע, ויש טיוטה אוטומטית. חלון 'משוב ותקלות' בהגדרות.",
@@ -297,6 +343,6 @@
       ]
     }
   ],
-  "issued": "2026-11-26T05:43:18.634375+00:00",
-  "sig": "Us7p5GtdPxmD0w9g5Pe652JZbTs7iOaCwMlL+y+sBcsOsvGbHSJFzkAPZYWzVgKUrY+Rz0BQl8joWB7v0R4yAw=="
+  "issued": "2026-11-26T07:37:04.660168+00:00",
+  "sig": "k1yt/P4xhotMdV5Jlu72ZCeU/vgqMSxSrU/wyAUFK0WaIue4zdeAPO21z5wiNoPqNnI3rCS4HGsWXHTg+3kxCg=="
 }
