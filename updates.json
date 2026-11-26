@@ -3,6 +3,52 @@
   "schema": 1,
   "releases": [
     {
+      "version": "6.0.16",
+      "date": "2026-11-26",
+      "notes": "מענה ב\"כ קבלן בפורמט המשרד: אם הגיבו בנספח משלהם, הבקשות מועתקות לנספח שלנו לפי סדר הסעיפים; המענה בעקוב אחר שינויים והנימוק בהערות שוליים. חדש: חיבור Claude אישי בהגדרות (מפתח API של המשתמש, נשמר מוצפן רק במחשב) וכפתור 'למד מקובץ' להוספת נספחים למאגר. Ollama הוסר: הוא תפס כ-17GB והתשובות שלו בעברית היו חלשות; במקומו אפשר לחבר מפתח Claude, והתוכנה עובדת גם בלי מפתח. מעבר בין מודולים לא מוחק נתונים, עבודה שרצה ממשיכה ברקע, ויש טיוטה אוטומטית. חלון 'משוב ותקלות' בהגדרות.",
+      "packages": [
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.16-from-6.0.15.lmu",
+          "size": 41497210,
+          "sha256": "17b58fcfb7cda688a02bae4e67d3ea22eff8a18c002c1db922f3ead12f6aa59c",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.16/lawmind-6.0.16-from-6.0.15.lmu",
+          "from": "6.0.15"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.16-from-6.0.14.lmu",
+          "size": 41694996,
+          "sha256": "7bc211fbfdb71e9921fdc40ad2845e3284e2460ac194b4872f3cf8b4d7309f6f",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.16/lawmind-6.0.16-from-6.0.14.lmu",
+          "from": "6.0.14"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.16-from-6.0.13.lmu",
+          "size": 41863850,
+          "sha256": "3306514a4e5992064295e2fe37f76b3d766f39ace92be57acac55b87d84dc17e",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.16/lawmind-6.0.16-from-6.0.13.lmu",
+          "from": "6.0.13"
+        },
+        {
+          "kind": "full",
+          "file": "lawmind-6.0.16-full.lmu",
+          "size": 221043073,
+          "sha256": "7b23a6109232b97e077e6c1de86db5c4e8e8dcb22cec76ac2571a58611cb8cd9",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.16/lawmind-6.0.16-full.lmu"
+        },
+        {
+          "kind": "full_user",
+          "file": "lawmind-6.0.16-full-user.lmu",
+          "size": 198184033,
+          "sha256": "0ca687ac33fc2b3331a00922ff1ea81f56d13664c7c179cfd0f0e13314e8e6c4",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.16/lawmind-6.0.16-full-user.lmu"
+        }
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "6.0.15",
       "date": "2026-11-25",
       "notes": "נספח ייצוג רוכש בפורמט המשרד: כותרת, צדדים, טבלה אחת וחתימות; הערות בסוגריים מסולסלים, בלי חלקים א'–ד'. יד שנייה: ההסכם עצמו עם שינויים במעקב והסברים בהערות שוליים, במקום נספח. תוקנה שגיאה ב'הכן מענה' על קובץ שכבר נערך ב-Word. הערות פנימיות (הודעות בין עמיתים) לא נקלטות יותר למאגרי ההערות.",
@@ -251,6 +297,6 @@
       ]
     }
   ],
-  "issued": "2026-11-25T15:40:06.467591+00:00",
-  "sig": "erLKk8/672EVLHLnHTO4s7c7intgJrt6c19qH+K0SCXcXHFR6hNUU5FR3gL/4D6/Dakpq7Pe7ZXfE2n5xw6XCQ=="
+  "issued": "2026-11-26T05:43:18.634375+00:00",
+  "sig": "Us7p5GtdPxmD0w9g5Pe652JZbTs7iOaCwMlL+y+sBcsOsvGbHSJFzkAPZYWzVgKUrY+Rz0BQl8joWB7v0R4yAw=="
 }
