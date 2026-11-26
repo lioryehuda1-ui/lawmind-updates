@@ -3,6 +3,52 @@
   "schema": 1,
   "releases": [
     {
+      "version": "6.0.19",
+      "date": "2026-11-26",
+      "notes": "סרגל: כפתורי החיפוש, המאגרים והפעמון בשורה אחת מיושרת. נספח ייצוג רוכש נבנה על 'נספח שינויים משפטי' של הפרויקט ועם שם היזם. מענה ב\"כ קבלן: הערות שכבר השארת עליהן הערה בשוליים לא נענות שוב. רשימת עסקאות: סימון פרויקטים לתצוגה ולייצוא לאקסל (אחד, כמה או כולם). כרטיסי פרויקט: 'בחר פרויקט' מוצג במלואו. הוסר הכפתור 'בדוק מול נסח טאבו' ממסך עריכת פרויקט. 'משוב ותקלות' בהגדרות.",
+      "packages": [
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.19-from-6.0.18.lmu",
+          "size": 40892335,
+          "sha256": "38d36617692c16fd56227306f45a5ac8ad47be2beeb100f537e89b1e6a5e1b07",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.19/lawmind-6.0.19-from-6.0.18.lmu",
+          "from": "6.0.18"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.19-from-6.0.17.lmu",
+          "size": 41039704,
+          "sha256": "14f92018f8c4720c965d3dca3b9cdabc93c122afba8b70a4f0bd3ffa5c556980",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.19/lawmind-6.0.19-from-6.0.17.lmu",
+          "from": "6.0.17"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.19-from-6.0.16.lmu",
+          "size": 41039706,
+          "sha256": "b59d091a18734354e06b9c441452920c9b28f3ebf6e7197031375520a2fefde2",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.19/lawmind-6.0.19-from-6.0.16.lmu",
+          "from": "6.0.16"
+        },
+        {
+          "kind": "full",
+          "file": "lawmind-6.0.19-full.lmu",
+          "size": 221120443,
+          "sha256": "805108df314dafa694869d1498d7931af32a870c9841fcbc03eb8d1d2a48e86b",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.19/lawmind-6.0.19-full.lmu"
+        },
+        {
+          "kind": "full_user",
+          "file": "lawmind-6.0.19-full-user.lmu",
+          "size": 197554838,
+          "sha256": "cfa81dfd01343a13894a42fab2ffe4769cf56ba11be5b551113d6ab07e2fd624",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.19/lawmind-6.0.19-full-user.lmu"
+        }
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "6.0.18",
       "date": "2026-11-26",
       "notes": "לוגו גדול וחד בסרגל. מסך הבית הוא שולחן עבודה: עבודות אחרונות, המשך מהמקום שעצרת (רק כשיש עבודה אמיתית), מה מחכה לטיפול. נהלי רישום וחקיקה: כפתור 'בדוק עדכונים' שמוריד נוסחים חדשים של החוקים. ניתוח עסקאות: חיפוש לפי שכונה ובורר סוג חיפוש בולט. הגדרות AI: בחירת ספק — Claude, Gemini או OpenAI — עם מפתח אישי שנשמר מוצפן במחשב.",
@@ -389,6 +435,6 @@
       ]
     }
   ],
-  "issued": "2026-11-26T09:44:20.238443+00:00",
-  "sig": "mlx97/UPbDTfSb5nvwtHa0aKFwEH0aUk2i9JrQNt4Mqtk49BOsLhgpKltxHVt+lZFzitslSCI/pATbzSsb8pAw=="
+  "issued": "2026-11-26T12:18:41.111660+00:00",
+  "sig": "27fHhYTIHGIIExeWnuk4K1PhFEsCLpb6Dr3a/fvn1fd55aE4B92lDx/RXeTbG9JCFiExfbQic/nNZz+GhxJVDw=="
 }
