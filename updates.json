@@ -3,6 +3,52 @@
   "schema": 1,
   "releases": [
     {
+      "version": "6.0.18",
+      "date": "2026-11-26",
+      "notes": "לוגו גדול וחד בסרגל. מסך הבית הוא שולחן עבודה: עבודות אחרונות, המשך מהמקום שעצרת (רק כשיש עבודה אמיתית), מה מחכה לטיפול. נהלי רישום וחקיקה: כפתור 'בדוק עדכונים' שמוריד נוסחים חדשים של החוקים. ניתוח עסקאות: חיפוש לפי שכונה ובורר סוג חיפוש בולט. הגדרות AI: בחירת ספק — Claude, Gemini או OpenAI — עם מפתח אישי שנשמר מוצפן במחשב.",
+      "packages": [
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.18-from-6.0.17.lmu",
+          "size": 40895441,
+          "sha256": "4f1fd493ae614860c6954167d46cafc2409e39f161d8e27ce77ccf074bcbf433",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.18/lawmind-6.0.18-from-6.0.17.lmu",
+          "from": "6.0.17"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.18-from-6.0.16.lmu",
+          "size": 40895445,
+          "sha256": "abc8cbc440437f8f315bed197f09200eb3bd56fb8d148c17566dedb11e919f0a",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.18/lawmind-6.0.18-from-6.0.16.lmu",
+          "from": "6.0.16"
+        },
+        {
+          "kind": "patch",
+          "file": "lawmind-6.0.18-from-6.0.15.lmu",
+          "size": 41700884,
+          "sha256": "891565231915e3130b13185a03de29efed52b18c6f1e0c2fd9382488fce7aefc",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.18/lawmind-6.0.18-from-6.0.15.lmu",
+          "from": "6.0.15"
+        },
+        {
+          "kind": "full",
+          "file": "lawmind-6.0.18-full.lmu",
+          "size": 221098421,
+          "sha256": "aaf02bf607fe90065c194ad823855d47f35ab11e4a1f60320a139691ed0c8873",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.18/lawmind-6.0.18-full.lmu"
+        },
+        {
+          "kind": "full_user",
+          "file": "lawmind-6.0.18-full-user.lmu",
+          "size": 198259940,
+          "sha256": "1ddb3f8c42dd0f9e3d0f7b76adfbaf4ddc9cf9516dd4da8d1a741601250f28e4",
+          "url": "https://github.com/lioryehuda1-ui/lawmind-updates/releases/download/v6.0.18/lawmind-6.0.18-full-user.lmu"
+        }
+      ],
+      "channel": "stable"
+    },
+    {
       "version": "6.0.17",
       "date": "2026-11-26",
       "notes": "עיצוב חדש לתוכנה: סרגל ניווט קבוע מימין ומסך בית במקום רשת הכרטיסים; לשוניות לעבודות פתוחות ומעבר ביניהן בלי לאבד נתונים; חיפוש ופקודות מהירות ב-Ctrl+K; לשוניות במודול יצירת חוזים; חלונית חיפוש במאגרים בצד המסך; פלטת צבעים חדשה. חלון 'משוב ותקלות' בהגדרות פעיל: פותח מייל ב-Outlook לכתובת התמיכה lawmind.support@gmail.com.",
@@ -343,6 +389,6 @@
       ]
     }
   ],
-  "issued": "2026-11-26T07:37:04.660168+00:00",
-  "sig": "k1yt/P4xhotMdV5Jlu72ZCeU/vgqMSxSrU/wyAUFK0WaIue4zdeAPO21z5wiNoPqNnI3rCS4HGsWXHTg+3kxCg=="
+  "issued": "2026-11-26T09:44:20.238443+00:00",
+  "sig": "mlx97/UPbDTfSb5nvwtHa0aKFwEH0aUk2i9JrQNt4Mqtk49BOsLhgpKltxHVt+lZFzitslSCI/pATbzSsb8pAw=="
 }
